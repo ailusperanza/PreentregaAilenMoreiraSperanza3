@@ -1,0 +1,21 @@
+nav {
+    .menu {
+      background-color: black;
+    }
+  
+    .nav-link {
+      color: antiquewhite;
+      width: 20px;
+      height: 20px;
+      display: inline;
+    }
+  
+    li {
+      display: inline-block;
+      margin: 20px;
+      padding: 0 100px;
+      justify-content: center;
+      text-align: center;
+    }
+
+  }

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Libre+Baskerville&display=swap");
+header {
+  background-image: url("../img/banner2.png");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  position: sticky;
+  top: 0;
+}
+header .logo {
+  width: 150px;
+}
+header .bloquelogo {
+  display: inline-block;
+  height: 20px 20px;
+  padding-left: 300px;
+  position: relative;
+  justify-content: center;
+}
+header h1 {
+  color: black;
+  -webkit-text-stroke-color: aliceblue;
+  -webkit-text-stroke-width: 1px;
+  font-size: 3rem;
+  display: inline-block;
+  align-items: center;
+}
+header .tienda {
+  background-color: white;
+  color: black;
+  padding: 10px 10px;
+  align-items: flex-end;
+  font-family: serif;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.5rem;
+}
+
+body {
+  font-family: "Caprasimo", cursive;
+}
+
+.footer {
+  background-color: black;
+  color: rgb(195, 173, 216);
+  border-bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding: 1rem 0;
+  margin: 1px;
+}
+
+nav .menu {
+  background-color: black;
+}
+nav .nav-link {
+  color: antiquewhite;
+  width: 20px;
+  height: 20px;
+  display: inline;
+}
+nav li {
+  display: inline-block;
+  margin: 20px;
+  padding: 0 100px;
+  justify-content: center;
+  text-align: center;
+}
+
+.cajaTexto {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid black;
+  padding: 40px;
+  margin: 40px;
+  margin-top: 10px;
+  font-style: oblique;
+  height: 300px;
+  width: 1300px;
+  background: hsl(60, 2%, 84%);
+  color: #333;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+h2 {
+  text-align: center;
+}
+
+cajaTexto p {
+  display: grid;
+  place-items: center;
+  margin-top: 30px;
+}
+
+.imgCarousel {
+  height: 350px;
+  object-fit: cover;
+}
+
+.formulario {
+  font-family: inherit;
+  background-image: url(../img/humorosa.jpg);
+  border-radius: 1rem;
+  justify-content: center;
+  width: 40%;
+  text-align: left;
+  margin: 70px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

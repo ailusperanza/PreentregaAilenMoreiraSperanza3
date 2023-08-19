@@ -1,0 +1,41 @@
+header {
+  background-image: url("../img/banner2.png");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  position: sticky;
+  top: 0;
+
+  .logo {
+    width: 150px;
+  }
+
+  .bloquelogo {
+    display: inline-block;
+    height: 20px 20px;
+    padding-left: 300px;
+    position: relative;
+    justify-content: center;
+  }
+
+  h1 {
+    color: black;
+    -webkit-text-stroke-color: aliceblue;
+    -webkit-text-stroke-width: 1px;
+    font-size: 3rem;
+    display: inline-block;
+    align-items: center;
+  }
+
+  .tienda {
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    align-items: flex-end;
+    font-family: serif;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5rem;
+  }
+}
